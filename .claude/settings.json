@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet *)",
+      "Bash(git *)",
+      "Bash(az *)",
+      "Bash(azd *)"
+    ],
+    "deny": []
+  }
+}
