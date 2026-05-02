@@ -1,7 +1,7 @@
-# iTeller.vNext - Modernized Banking API
+# Modernized Banking API using DOTNET
 
 ## Project Overview
-This project aims to modernize the **iTeller** banking application, transitioning it from its original .NET 5.0 implementation to a modern .NET (targeting .NET 8 LTS) architecture. iTeller is a multi-tenant platform providing internet banking services, including account management, bill pay, eStatements, and more.
+This project aims to modernize the banking application, transitioning it from its original .NET 5.0 implementation to a modern .NET (targeting .NET 8 LTS) architecture. This is a multi-tenant platform providing internet banking services, including account management, bill pay, eStatements, and more.
 
 ## Objective
 Re-implement the core API endpoints and business logic using modern .NET best practices while maintaining compatibility with the existing domain requirements and Clean Architecture principles.
@@ -42,7 +42,5 @@ We will follow a **Clean Architecture** approach, similar to the original projec
 ## Getting Started
 1. **Prerequisites**: .NET 8 SDK installed.
 2. **Configuration**: Set up connection strings and tenant configurations in `appsettings.json`.
-3. **Run**: `dotnet run --project iTeller.Web` (or similar).
+3. **Run**: `dotnet run --project banking-netazure` (or similar).
 
-## Documentation Reference
-Refer to the `../docs` folder for detailed specifications of the original .NET 5 system.
