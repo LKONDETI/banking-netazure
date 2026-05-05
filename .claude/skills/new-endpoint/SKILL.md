@@ -42,10 +42,10 @@ After writing tests, run them and confirm all pass.
 Run `dotnet build` and `dotnet test` to confirm everything is green.
 Report: total tests, passing, failing.
 
+## Stage 8: Task Summary
+Use the `task-summarizer` agent to produce a concise end-of-session summary.
+Include: what was built, architecture decisions, task recap table, test coverage, known gaps, and quick stats.
+
 ---
 
-At the end, summarize what was built:
-- Endpoint(s) added
-- Files created/modified
-- Test coverage
-- Any known limitations or follow-up tasks
+At the end, present the full summary from the `task-summarizer` agent.
